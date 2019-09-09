@@ -27,7 +27,7 @@ unexport GOBIN
 
 GO           ?= go
 GOFMT        ?= $(GO)fmt
-FIRST_GOPATH := $(shell echo $(WORKSPACE)
+FIRST_GOPATH := $(shell echo $(WORKSPACE))
 GOOPTS       ?=
 GOHOSTOS     ?= $(shell $(GO) env GOHOSTOS)
 GOHOSTARCH   ?= $(shell $(GO) env GOHOSTARCH)
